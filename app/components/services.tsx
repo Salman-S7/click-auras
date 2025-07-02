@@ -7,7 +7,7 @@ const services = [
   {
     icon: <div className="w-16 h-16 bg-white rounded-full mx-auto" />,
     label: "Google Ads",
-    headline: "Unlock demand with search & display.",
+    headline: "Unlock demand with search & display with us.",
   },
   {
     icon: (
@@ -21,7 +21,7 @@ const services = [
 ];
 
 const ServicesSection = () => (
-  <section className="w-full max-w-7xl mx-auto py-12">
+  <section className="w-full md:max-w-7xl px-6 mx-auto py-12">
     <div className="flex flex-col md:flex-row gap-8 justify-between items-stretch">
       {services.map((service, i) => (
         <div

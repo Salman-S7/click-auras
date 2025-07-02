@@ -1,6 +1,6 @@
 const HeroSection = () => {
   return (
-    <div className="text-center py-20 px-6">
+    <div className="text-center mt-16 py-20 px-6">
       <h1 className="text-3xl text-white md:text-4xl font-bold">
         Meta & Google Ads. Real growth.
       </h1>
