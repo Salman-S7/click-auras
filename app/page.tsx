@@ -9,7 +9,7 @@ import WhyChooseUsSection from "./components/why-choose-us";
 
 export default function Home() {
   return (
-    <section className="min-h-screen max-w-7xl mx-auto text-white py-12">
+    <main className="min-h-screen max-w-7xl mx-auto text-white py-12">
       <HeroSection />
       <ServicesSection />
       <FeaturesSection />
@@ -18,6 +18,6 @@ export default function Home() {
       <WhyChooseUsSection />
       <FoundersSection />
       <CTASection />
-    </section>
+    </main>
   );
 }
