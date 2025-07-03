@@ -1,8 +1,4 @@
-"use client";
-
 import Image from "next/image";
-import AnimatedAnalyticsCard from "./animated-card";
-import AnimatedAreaChart from "./animated-chart";
 
 const HeroSection = () => {
   return (
