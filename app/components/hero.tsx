@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const HeroSection = () => {
   return (
     <section className="text-center mt-16 py-20 px-6">
