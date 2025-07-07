@@ -37,7 +37,7 @@ const HeroSection = () => {
           loop
           muted
         >
-          <source src="/videos/hero-vid.mp4" type="video/mp4" />
+          <source src="/videos/hero-video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
