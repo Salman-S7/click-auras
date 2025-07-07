@@ -15,9 +15,9 @@ const HeroSection = () => {
       </button>
 
       {/* Animated growth graph container */}
-      <div className="mt-28 lg:max-w-7xl h-[90vh] border border-white/8 rounded-3xl shadow-2xl flex items-center justify-center overflow-hidden mx-auto">
-        <Image
-          src="/images/hero-3.png"
+      <div className="mt-28 lg:max-w-7xl h-[80vh] border border-white/8 rounded-3xl shadow-2xl flex items-center justify-center overflow-hidden mx-auto">
+        {/* <Image
+          src="/images/dashboard.jpeg"
           alt="Hero"
           width={1000}
           height={1000}
@@ -29,16 +29,17 @@ const HeroSection = () => {
           width={1000}
           height={1000}
           className="w-full h-full object-cover object-center md:hidden block"
-        />
-        {/* <AnimatedAnalyticsCard /> */}
-        {/* <AnimatedAreaChart /> */}
-        {/* <video
-          src="https://videos.pexels.com/video-files/7947455/7947455-hd_1920_1080_30fps.mp4"
-          className="w-full h-full object-cover object-top"
+        /> */}
+
+        <video
+          className="w-full h-full object-cover object-center"
           autoPlay
           loop
           muted
-        /> */}
+        >
+          <source src="/videos/hero-vid.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
     </section>
   );
