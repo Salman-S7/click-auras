@@ -26,7 +26,7 @@ export default function FeatureRow({
       </div>
 
       {/* Icon Placeholder */}
-      <div className="rounded-2xl border border-gray-800 overflow-hidden h-[600px] w-[50%] bg-gray-100">
+      <div className="rounded-2xl w-full md:w-[50%] border border-gray-800 overflow-hidden h-[600px] w-[50%] bg-gray-100">
         {/* <div className="w-40 h-40 rounded-xl flex items-center justify-center"> */}
         <img
           src={imgUrl}
