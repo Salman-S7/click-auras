@@ -1,14 +1,16 @@
+import Image from "next/image";
+
 type FeatureRowProps = {
   title: string;
   description: string;
-  iconType: "square" | "circle" | "triangle";
+  imgUrl: string;
   reverse?: boolean;
 };
 
 export default function FeatureRow({
   title,
   description,
-  iconType,
+  imgUrl,
   reverse = false,
 }: FeatureRowProps) {
   return (
@@ -26,16 +28,16 @@ export default function FeatureRow({
       </div>
 
       {/* Icon Placeholder */}
-      <div className="flex-1 flex rounded-2xl min-h-[600px] w-[100%] bg-gray-100 items-center justify-center">
-        <div className="w-40 h-40 rounded-xl flex items-center justify-center">
-          {iconType === "square" && <div className="w-8 h-8 bg-white" />}
-          {iconType === "circle" && (
-            <div className="w-8 h-8 bg-white rounded-full" />
-          )}
-          {iconType === "triangle" && (
-            <div className="w-0 h-0 border-l-8 border-r-8 border-b-[16px] border-transparent border-b-white" />
-          )}
-        </div>
+      <div className="rounded-2xl border border-gray-800 overflow-hidden h-[600px] w-[50%] bg-gray-100">
+        {/* <div className="w-40 h-40 rounded-xl flex items-center justify-center"> */}
+        <img
+          src={imgUrl}
+          alt="icon"
+          className="h-full w-full object-cover object-center"
+          width={100}
+          height={100}
+        />
+        {/* </div> */}
       </div>
     </div>
   );

@@ -1,3 +1,11 @@
+  /**
+   * HeroSection is a React component that renders the hero section of the
+   * Click Auras website. It consists of a background with a radial gradient,
+   * a headline, a paragraph of text, a button, and an animated growth graph
+   * container.
+   *
+   * @returns A JSX element representing the hero section.
+   */
 const HeroSection = () => {
   return (
     <section className="text-center mt-16 py-20 px-6">
@@ -23,21 +31,6 @@ const HeroSection = () => {
 
       {/* Animated growth graph container */}
       <div className="mt-28 lg:max-w-7xl border border-gray-600 rounded-3xl shadow-2xl flex items-center justify-center overflow-hidden mx-auto">
-        {/* <Image
-          src="/images/dashboard.jpeg"
-          alt="Hero"
-          width={1000}
-          height={1000}
-          className="w-full h-full object-cover md:block hidden"
-        />
-        <Image
-          src="/images/hero-mobile-img.png"
-          alt="Hero"
-          width={1000}
-          height={1000}
-          className="w-full h-full object-cover object-center md:hidden block"
-        /> */}
-
         <video
           className="w-full h-full object-cover object-center"
           autoPlay
