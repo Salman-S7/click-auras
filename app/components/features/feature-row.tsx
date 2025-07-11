@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 type FeatureRowProps = {
   title: string;
   description: string;
